@@ -1,0 +1,219 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  margin:0 200px;
+}
+.stuff1{
+  float: right;
+}
+.container{
+  border-top: solid 1px rgba(0, 0, 0, 0.1);
+}
+.title{
+  margin:0 200px;
+}
+.linkz{
+  float: right;
+}
+.linkz a{
+  text-decoration: none;
+  color: #000;
+  font-size: 16pt;
+  padding: 100px 20px;
+}
+.linkz a:hover{
+  text-decoration: underline;
+}
+.imagebg{
+  background: url("./Source/main-hero-man2.jpg");
+  background-size: cover;
+}
+.imagebg .content{
+  padding: 100px 200px;
+  font-size: 60px;
+  color: white;
+}
+.imagebg .content button{
+  padding: 10px 20px;
+  border: none;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.ig1{
+  width: 150px;
+  margin: 10px;
+}
+.ext1{
+  position: relative;
+  vertical-align: top;
+  margin: 50px 0 0px 120px;
+  width: 300px;
+  display: inline-block;
+}
+.ext1 img{
+  position: absolute;
+  left: -70px;
+  width: 60px;
+}
+.ext1 .exttitle{
+  font-weight: bold;
+  font-size: 18px;
+}
+.ext1 .extparagraf{
+  font-size: 18px;
+  text-align: justify;
+  padding: 10px 0;
+}
+.ext2{
+  width: 350px;
+  text-align: center;
+  display: inline-block;
+  margin: 30px;
+}
+.ext2 p {
+  font-weight: bold;
+}
+.ext2 img{
+  width: 100px;
+  padding: 60px 120px;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+.imagebg2{
+  background-image: url("./Source/main-hero-man2.jpg");
+  color: white;
+  font-size: 30px;
+  padding: 30px 0;
+}
+.imagebg2 div{
+  width: 500px;
+  font-weight: bold;
+}
+.p1{
+  color: #6d6d6d;
+  text-align: center;
+}
+.ext3{
+  width: 200px;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  text-align:left ;
+  display: inline-block;
+  margin: 0 50px;
+}
+.ext3 .sp1{
+  background: rgb(12, 49, 129);
+  width: 100px;
+  color: aliceblue;
+  padding: 3px;
+}
+.ext3 .sp2{
+  font-weight: bold;
+}
+.ext3 .sp3{
+  color: #6d6d6d;
+}
+.ext3 a{
+  color: #27478a;
+  text-decoration: none;
+  font-weight: bold;
+}
+.ext3 a:hover{
+  text-decoration: underline;
+}
+.sm-line{
+  margin: 50px 0;
+  width: 300px;
+}
+.a1{
+  width: 250px;
+  display: inline-block;
+  border: solid thin rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  vertical-align: top;
+  height: 150px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 10px;
+}
+.a1 img{
+  width: 50px;
+  display: block;
+  margin-bottom: 20px;
+}
+.footer{
+  padding: 40px 0;
+  text-align: center;
+  background-color: rgb(43, 43, 43);
+  color: aliceblue;
+  width: 100%;
+}
+.footer .ft1{
+  width: 600px;
+  font-size: 10pt;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin-right: 50px;
+}
+.footer .ft2{
+  font-size: 10pt;
+  width: 300px;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+}
+.blogTitle{background-color: rgb(18, 105, 219);padding: 10px;}
+.blogTitle div{width: 75%;}
+.blogTitle div h1{
+  text-align: left;
+  color: #fff;
+  font-size: 30pt;
+}
+.blogcol{
+  margin: 30px 0;
+  width: 83%;
+}
+.col1,.col2{
+  vertical-align: top;
+  display: inline-block;
+}
+
+.col1{width: 60%;margin-right:50px;}
+.col2{width: 20%;}
+.card{padding: 10px;}
+.card img{width: 100%;}
+.card a{
+  text-decoration: none;
+  color: #000;
+}
+.card a .title1{font-weight: bold;font-size: 16pt;transition: 1s;}
+.card a .date1{color: #6d6d6d;}
+.card a .linkz1{font-weight: 600;}
+.card a:hover .title1{
+  text-decoration: underline;
+}
+.card a:hover .linkz1{
+  text-decoration: underline;
+}
+.search1{
+  border: solid thin #000;
+  padding: 20px 10px;
+  width: 100%;
+}
+.search1 input{
+  border:none;
+  width: 200px;
+}
+.infoblog{padding: 10px; font-size: 10pt; margin: 5px 0;}
+.infoblog img{width: 100px; vertical-align: top;}
+
+a{text-decoration: none;color: #000;transition: 0.25s;}
+.infoblog a:hover{
+  color: rgb(46, 60, 124);
+}
